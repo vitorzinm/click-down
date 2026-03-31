@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 350;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+background: linear-gradient(1deg, rgba(255, 255, 255, 0) 78%, rgba(122, 222, 155, 1) 100%);
+    
+}
+.container{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    border: solid black 1px ;
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    box-shadow: 1px 1px 3.5px black;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+input{
+    width: 285px;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    width: 80px;
+    height: 40px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+.link-cadastro{
+    align-self: self-start;
+    padding: 20px;
+}
