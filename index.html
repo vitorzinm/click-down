@@ -1,16 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Click DDown</title>
+
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="container"></div>
-    <aside>
-        <button><img src="" alt=""></button>
-        <button><img src="" alt=""></button>
-    </aside>
+
+    <header class="header">
+        <h1 class="titulo">Click DDown</h1>
+    </header>
+
+    <div class="container">
+
+        <aside>
+            <button><img src="calendario.png"></button>
+            <button><img src="lista-de-reproducao.png"></button>
+        </aside>
+
+        <main class="conteudo">
+
+            <div class="lista-tarefas">
+
+                <div class="tarefa">
+                    <div class="text-1">
+                        <p class="exibicao-de-progresso">Em Progresso</p>
+                    </div>
+
+                    <div class="padding">
+                        <div class="text-2">
+                            <button class="nome-da-tarefa">Nome da Tarefa</button>
+                        </div>
+
+                        <div class="subtarefas"></div>
+
+                        <div class="funcoes-tarefa">
+                            <hr>
+                            <button class="add-subtarefa">+ Adicionar Subtarefa</button>
+                            <button class="finalizar-tarefa">✔ Finalizar</button>
+                            <button class="renomear-tarefa">✏ Renomear</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTÃO NOVA TAREFA -->
+            <div class="nova-tarefa">
+                <button class="add-tarefa">+ Adicionar Tarefa</button>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Click DDown</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
